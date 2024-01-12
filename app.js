@@ -41,7 +41,7 @@ function showNotes(searchTerm="") {
     html += `
       <div class="noteCard my-2 card" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">${element[0]}</h5>
+          <h5 class="card-title"><strong>${element[0]}</strong></h5>
           <p class="card-text"> ${element[1]}</p>
           <button id="${index}" onclick="editNote(this.id)" class="btn btn-primary">Edit</button>
           <button id="${index}" onclick="deleteNote(this.id)" class="btn btn-primary">Delete</button>
